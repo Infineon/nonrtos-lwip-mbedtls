@@ -1,0 +1,7 @@
+{
+    "configurator_support": true,
+    "core": {
+        "id": "eef44858-d20f-4678-bfe4-03ab3b43917b",
+        "name": "nonrtos-lwip-mbedtls"
+    }
+}
