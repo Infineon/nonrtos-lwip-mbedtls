@@ -652,6 +652,7 @@ void https_test(void);
 
 /* lwIP includes */
 #include "lwip/dns.h"
+#include "lwip/altcp.h"
 #include "lwip/altcp_tls.h"
 #include "altcp_tls_mbedtls_structs.h"
 #include "lwip/prot/iana.h"
@@ -952,7 +953,7 @@ void https_test(void)
     psa_status = psa_crypto_init();
     if (PSA_SUCCESS != psa_status)
     {
-        printf("Failed to initialize PSA crypto : %d \r\n", psa_status);
+        printf("Failed to initialize PSA crypto : %ld \r\n", psa_status);
         return;
     }
 

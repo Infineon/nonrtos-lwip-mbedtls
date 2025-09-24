@@ -6,6 +6,10 @@ See the [README.md](./README.md) for a complete description of the [Non-RTOS lwI
 
 ## Changelog
 
+### v1.0.1
+
+- Minor documentation update.
+
 ### v1.0.0
 
 - Initial release for Non-RTOS lwIP mbedtls library.
